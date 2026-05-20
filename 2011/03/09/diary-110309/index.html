@@ -107,26 +107,26 @@
   <meta name="description" content="果然自己喜欢的东西还是需要付出点代价，不过值得了今天果断用$15买了这个模板，我觊觎已久了啊啊 [033]总觉得最近自己挣了钱之后就开始无节制花销了 [064]  同学出门，他家的猫又归我管了，趁机好好欺负一下（喂这家伙是怎么都不肯好好的让我给它照个像啊囧猫神马的最讨厌了！！说起来这几天总有一只黑白色的猫来我家蹭牛奶喝大概是因为隔壁的人已经不能满足它了不过说那个家伙瘦的一摸都摸到骨头 [069]">
 <meta property="og:type" content="article">
 <meta property="og:title" content="模板搞定">
-<meta property="og:url" content="http://kiryuknight.me/2011/03/09/diary-110309/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2011/03/09/diary-110309/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="果然自己喜欢的东西还是需要付出点代价，不过值得了今天果断用$15买了这个模板，我觊觎已久了啊啊 [033]总觉得最近自己挣了钱之后就开始无节制花销了 [064]  同学出门，他家的猫又归我管了，趁机好好欺负一下（喂这家伙是怎么都不肯好好的让我给它照个像啊囧猫神马的最讨厌了！！说起来这几天总有一只黑白色的猫来我家蹭牛奶喝大概是因为隔壁的人已经不能满足它了不过说那个家伙瘦的一摸都摸到骨头 [069]">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://kiryuknight.me/img/wp/external/i306.photobucket.com/zpxz0016.webp">
+<meta property="og:image" content="http://kiryuknight.fun/img/wp/external/i306.photobucket.com/zpxz0016.webp">
 <meta property="article:published_time" content="2011-03-08T16:55:41.000Z">
-<meta property="article:modified_time" content="2026-05-20T12:13:44.102Z">
+<meta property="article:modified_time" content="2026-05-20T12:13:44.000Z">
 <meta property="article:author" content="露崎">
 <meta property="article:tag" content="扯淡">
 <meta property="article:tag" content="写真">
 <meta property="article:tag" content="模板">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://kiryuknight.me/img/wp/external/i306.photobucket.com/zpxz0016.webp">
+<meta name="twitter:image" content="http://kiryuknight.fun/img/wp/external/i306.photobucket.com/zpxz0016.webp">
 
 
 
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2011/03/09/diary-110309/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2011/03/09/diary-110309/"/>
 
 
 
@@ -305,7 +305,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2011/03/09/diary-110309/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2011/03/09/diary-110309/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1137,5 +1137,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

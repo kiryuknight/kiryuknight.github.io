@@ -107,12 +107,12 @@
   <meta name="description" content="我都不知道自己写的是个神马..&#x3D; &#x3D;­ 这块土地名叫遗忘之都。本应该是被大家遗忘的地方，最近却热闹起来。 「田七蛇煲最美味了。」不知是谁说了一句。「坚决反对！！」两个声音。 「呼……」绿衣少女从树下阁走了出来。「难得一次见到你的时候不是在喝酒。」法师模样的男子摆弄着手里不知道从哪里召唤出来的绿色精灵。「你召唤的不会是竹精灵吧……」绿色的双眸死死的盯着那只精灵。「是竹精灵。……才怪。我不会欺负你的同">
 <meta property="og:type" content="article">
 <meta property="og:title" content="无题（X指名）">
-<meta property="og:url" content="http://kiryuknight.me/2010/07/19/dairy100719/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2010/07/19/dairy100719/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="我都不知道自己写的是个神马..&#x3D; &#x3D;­ 这块土地名叫遗忘之都。本应该是被大家遗忘的地方，最近却热闹起来。 「田七蛇煲最美味了。」不知是谁说了一句。「坚决反对！！」两个声音。 「呼……」绿衣少女从树下阁走了出来。「难得一次见到你的时候不是在喝酒。」法师模样的男子摆弄着手里不知道从哪里召唤出来的绿色精灵。「你召唤的不会是竹精灵吧……」绿色的双眸死死的盯着那只精灵。「是竹精灵。……才怪。我不会欺负你的同">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2010-07-19T06:09:35.000Z">
-<meta property="article:modified_time" content="2026-05-20T11:35:15.019Z">
+<meta property="article:modified_time" content="2026-05-20T11:35:15.000Z">
 <meta property="article:author" content="露崎">
 <meta property="article:tag" content="最近好きなもの">
 <meta property="article:tag" content="昆仑山相关">
@@ -127,7 +127,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2010/07/19/dairy100719/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2010/07/19/dairy100719/"/>
 
 
 
@@ -306,7 +306,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2010/07/19/dairy100719/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2010/07/19/dairy100719/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1148,5 +1148,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

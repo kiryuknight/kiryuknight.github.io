@@ -107,27 +107,27 @@
   <meta name="description" content="如我所料的生日，收到生日祝福超開心的，於是我每次都說不用準備生日禮物了XD然後就如意料中的沒收到禮物，阿顏和夫人的還沒拿到手XD 啃蛋糕歸來，是說蛋糕雖然長得不怎么樣（←沒良心的某人但是。。但是！！超好吃T-T。。我果然還是愛蛋糕啊。。在袋鼠國都沒吃到過這么美味的蛋糕。。 翻照片居然還翻到了兩年前的蛋糕，抹淚，好懷念誒誒！當然，去年那個就不用提了。  是說這個蛋糕超好吃誒誒！！  晚餐，雖然菜不多">
 <meta property="og:type" content="article">
 <meta property="og:title" content="於是，誕生日XD">
-<meta property="og:url" content="http://kiryuknight.me/2009/01/09/%E6%96%BC%E6%98%AF%EF%BC%8C%E8%AA%95%E7%94%9F%E6%97%A5xd/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2009/01/09/%E6%96%BC%E6%98%AF%EF%BC%8C%E8%AA%95%E7%94%9F%E6%97%A5xd/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="如我所料的生日，收到生日祝福超開心的，於是我每次都說不用準備生日禮物了XD然後就如意料中的沒收到禮物，阿顏和夫人的還沒拿到手XD 啃蛋糕歸來，是說蛋糕雖然長得不怎么樣（←沒良心的某人但是。。但是！！超好吃T-T。。我果然還是愛蛋糕啊。。在袋鼠國都沒吃到過這么美味的蛋糕。。 翻照片居然還翻到了兩年前的蛋糕，抹淚，好懷念誒誒！當然，去年那個就不用提了。  是說這個蛋糕超好吃誒誒！！  晚餐，雖然菜不多">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://kiryuknight.me/img/wp/external/i306.photobucket.com/zpsy0010.webp">
-<meta property="og:image" content="http://kiryuknight.me/img/wp/external/i306.photobucket.com/zpsy0011.webp">
-<meta property="og:image" content="http://kiryuknight.me/img/wp/external/i306.photobucket.com/zpsy0012.webp">
+<meta property="og:image" content="http://kiryuknight.fun/img/wp/external/i306.photobucket.com/zpsy0010.webp">
+<meta property="og:image" content="http://kiryuknight.fun/img/wp/external/i306.photobucket.com/zpsy0011.webp">
+<meta property="og:image" content="http://kiryuknight.fun/img/wp/external/i306.photobucket.com/zpsy0012.webp">
 <meta property="article:published_time" content="2009-01-09T11:11:02.000Z">
-<meta property="article:modified_time" content="2026-05-20T11:57:43.592Z">
+<meta property="article:modified_time" content="2026-05-20T11:57:43.000Z">
 <meta property="article:author" content="露崎">
-<meta property="article:tag" content="生日">
 <meta property="article:tag" content="写真">
+<meta property="article:tag" content="生日">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://kiryuknight.me/img/wp/external/i306.photobucket.com/zpsy0010.webp">
+<meta name="twitter:image" content="http://kiryuknight.fun/img/wp/external/i306.photobucket.com/zpsy0010.webp">
 
 
 
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2009/01/09/於是，誕生日xd/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2009/01/09/於是，誕生日xd/"/>
 
 
 
@@ -306,7 +306,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2009/01/09/%E6%96%BC%E6%98%AF%EF%BC%8C%E8%AA%95%E7%94%9F%E6%97%A5xd/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2009/01/09/%E6%96%BC%E6%98%AF%EF%BC%8C%E8%AA%95%E7%94%9F%E6%97%A5xd/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -429,9 +429,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/%E7%94%9F%E6%97%A5/" rel="tag"># 生日</a>
-          
             <a href="/tags/%E5%86%99%E7%9C%9F/" rel="tag"># 写真</a>
+          
+            <a href="/tags/%E7%94%9F%E6%97%A5/" rel="tag"># 生日</a>
           
         </div>
       
@@ -1141,5 +1141,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

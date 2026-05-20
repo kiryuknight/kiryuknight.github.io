@@ -107,7 +107,7 @@
   <meta name="description" content="『Your VOICE is my favourite sound.』">
 <meta property="og:type" content="website">
 <meta property="og:title" content="+トオリミチ+">
-<meta property="og:url" content="http://kiryuknight.me/archives/page/11/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/archives/page/11/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="『Your VOICE is my favourite sound.』">
 <meta property="og:locale" content="zh_CN">
@@ -119,7 +119,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/archives/page/11/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/archives/page/11/"/>
 
 
 
@@ -1345,5 +1345,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

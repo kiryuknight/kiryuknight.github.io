@@ -107,12 +107,12 @@
   <meta name="description" content="写在前面 说是拜师记结果整篇文似乎跟拜师没一点关系ww另外果然咱写的东西就是拿不出手啊&gt;_&lt;所以就说NPC也有苦恼的时候啊，为什么NPC就一定要被点名T^T 有些时候人总是会做一些自己都觉得不可思议的事情。就比如说她现在正要去的那个地方。一张传单，一段普通的介绍，却让她如此好奇。「一般人……都会直接丢到垃圾桶的吧？」她又看了一下手中的传单。上面写着“昆仑山版杀募招”几个大字，下面是几行">
 <meta property="og:type" content="article">
 <meta property="og:title" content="拜师记（师傅指名）">
-<meta property="og:url" content="http://kiryuknight.me/2010/07/17/apprentice-kunlun/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2010/07/17/apprentice-kunlun/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="写在前面 说是拜师记结果整篇文似乎跟拜师没一点关系ww另外果然咱写的东西就是拿不出手啊&gt;_&lt;所以就说NPC也有苦恼的时候啊，为什么NPC就一定要被点名T^T 有些时候人总是会做一些自己都觉得不可思议的事情。就比如说她现在正要去的那个地方。一张传单，一段普通的介绍，却让她如此好奇。「一般人……都会直接丢到垃圾桶的吧？」她又看了一下手中的传单。上面写着“昆仑山版杀募招”几个大字，下面是几行">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2010-07-16T19:17:33.000Z">
-<meta property="article:modified_time" content="2026-05-20T11:24:39.248Z">
+<meta property="article:modified_time" content="2026-05-20T11:24:39.000Z">
 <meta property="article:author" content="露崎">
 <meta property="article:tag" content="版杀">
 <meta property="article:tag" content="昆仑山相关">
@@ -126,7 +126,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2010/07/17/apprentice-kunlun/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2010/07/17/apprentice-kunlun/"/>
 
 
 
@@ -305,7 +305,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2010/07/17/apprentice-kunlun/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2010/07/17/apprentice-kunlun/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1121,5 +1121,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

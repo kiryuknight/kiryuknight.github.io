@@ -107,7 +107,7 @@
   <meta name="description" content="然后为什么我又开始犹豫第一篇发什么了我这个人怎么这么强迫症 其实之前就是因为标题想按照以前的格式来标签不敢瞎写分类不敢瞎选blablabla 最主要的是不能随便贴图 不过现在发现图好像是可以随便贴了的样子这点我还是很开心的 我总觉得我该把我的截图都往上怼就对了……要怎么怼感觉还是好犹豫啊！ 不过总觉得只要发了第一篇之后后面就很随意了不是吗！ 反正嗯……总之……嗯……至少迈出第一步…… 怎么我发个b">
 <meta property="og:type" content="article">
 <meta property="og:title" content="我终于可以重新开始了！！">
-<meta property="og:url" content="http://kiryuknight.me/2018/05/19/%E6%88%91%E7%BB%88%E4%BA%8E%E5%8F%AF%E4%BB%A5%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E4%BA%86%EF%BC%81%EF%BC%81/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2018/05/19/%E6%88%91%E7%BB%88%E4%BA%8E%E5%8F%AF%E4%BB%A5%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E4%BA%86%EF%BC%81%EF%BC%81/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="然后为什么我又开始犹豫第一篇发什么了我这个人怎么这么强迫症 其实之前就是因为标题想按照以前的格式来标签不敢瞎写分类不敢瞎选blablabla 最主要的是不能随便贴图 不过现在发现图好像是可以随便贴了的样子这点我还是很开心的 我总觉得我该把我的截图都往上怼就对了……要怎么怼感觉还是好犹豫啊！ 不过总觉得只要发了第一篇之后后面就很随意了不是吗！ 反正嗯……总之……嗯……至少迈出第一步…… 怎么我发个b">
 <meta property="og:locale" content="zh_CN">
@@ -123,7 +123,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2018/05/19/我终于可以重新开始了！！/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2018/05/19/我终于可以重新开始了！！/"/>
 
 
 
@@ -302,7 +302,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2018/05/19/%E6%88%91%E7%BB%88%E4%BA%8E%E5%8F%AF%E4%BB%A5%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E4%BA%86%EF%BC%81%EF%BC%81/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2018/05/19/%E6%88%91%E7%BB%88%E4%BA%8E%E5%8F%AF%E4%BB%A5%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E4%BA%86%EF%BC%81%EF%BC%81/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1111,5 +1111,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

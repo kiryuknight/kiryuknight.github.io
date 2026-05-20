@@ -107,7 +107,7 @@
   <meta name="description" content="或许是我年纪大了（。 不，也许是因为我blog文章丢了（。 反正就突然想删了重新来毕竟好几年的东西都没了，留下的都是曾经的曾经而且我最喜欢的几个人的文都丢了剩下的好多都是08年那会……那会我是准确的说我都觉得是黑历史了就（。 反正也备份了，觉得要不就重来吧把以前的备份到wordpress总站了也导出到电脑上了那个倒是再倒入也还是能显示的 重新开始吧反正我觉得可能也……不太会更新（。毕竟要说的都扔在">
 <meta property="og:type" content="article">
 <meta property="og:title" content="把blog给删了">
-<meta property="og:url" content="http://kiryuknight.me/2018/05/19/%E6%8A%8Ablog%E7%BB%99%E5%88%A0%E4%BA%86/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2018/05/19/%E6%8A%8Ablog%E7%BB%99%E5%88%A0%E4%BA%86/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="或许是我年纪大了（。 不，也许是因为我blog文章丢了（。 反正就突然想删了重新来毕竟好几年的东西都没了，留下的都是曾经的曾经而且我最喜欢的几个人的文都丢了剩下的好多都是08年那会……那会我是准确的说我都觉得是黑历史了就（。 反正也备份了，觉得要不就重来吧把以前的备份到wordpress总站了也导出到电脑上了那个倒是再倒入也还是能显示的 重新开始吧反正我觉得可能也……不太会更新（。毕竟要说的都扔在">
 <meta property="og:locale" content="zh_CN">
@@ -125,7 +125,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2018/05/19/把blog给删了/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2018/05/19/把blog给删了/"/>
 
 
 
@@ -304,7 +304,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2018/05/19/%E6%8A%8Ablog%E7%BB%99%E5%88%A0%E4%BA%86/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2018/05/19/%E6%8A%8Ablog%E7%BB%99%E5%88%A0%E4%BA%86/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1115,5 +1115,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

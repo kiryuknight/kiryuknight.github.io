@@ -107,23 +107,23 @@
   <meta name="description" content="于是说今天突然RP泛滥拿出了相机照了一张照片（才一张……PIA！）传照片是美好滴，过程是吐血滴&#x3D; &#x3D;~今天又被YUPOO相册BS了一把，把图缩到如此之小才能发上来，真无语。咱滴桌子……其实不如说是咱的电脑OTL  废话句，MS两天木更文了，我有罪……争取明天把下章打出来OTL也不知道写出来有木有人看，默默飞走">
 <meta property="og:type" content="article">
 <meta property="og:title" content="传照片都要被BS么">
-<meta property="og:url" content="http://kiryuknight.me/2008/03/15/%E7%85%A7%E7%89%87%E9%83%BD%E8%A6%81%E8%A2%ABbs/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2008/03/15/%E7%85%A7%E7%89%87%E9%83%BD%E8%A6%81%E8%A2%ABbs/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="于是说今天突然RP泛滥拿出了相机照了一张照片（才一张……PIA！）传照片是美好滴，过程是吐血滴&#x3D; &#x3D;~今天又被YUPOO相册BS了一把，把图缩到如此之小才能发上来，真无语。咱滴桌子……其实不如说是咱的电脑OTL  废话句，MS两天木更文了，我有罪……争取明天把下章打出来OTL也不知道写出来有木有人看，默默飞走">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://kiryuknight.me/img/wp/external/pic.yupoo.com/medium.jpg">
+<meta property="og:image" content="http://kiryuknight.fun/img/wp/external/pic.yupoo.com/medium.jpg">
 <meta property="article:published_time" content="2008-03-15T14:51:10.000Z">
-<meta property="article:modified_time" content="2026-05-20T10:41:46.757Z">
+<meta property="article:modified_time" content="2026-05-20T10:41:46.000Z">
 <meta property="article:author" content="露崎">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://kiryuknight.me/img/wp/external/pic.yupoo.com/medium.jpg">
+<meta name="twitter:image" content="http://kiryuknight.fun/img/wp/external/pic.yupoo.com/medium.jpg">
 
 
 
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2008/03/15/照片都要被bs/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2008/03/15/照片都要被bs/"/>
 
 
 
@@ -302,7 +302,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2008/03/15/%E7%85%A7%E7%89%87%E9%83%BD%E8%A6%81%E8%A2%ABbs/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2008/03/15/%E7%85%A7%E7%89%87%E9%83%BD%E8%A6%81%E8%A2%ABbs/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1098,5 +1098,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

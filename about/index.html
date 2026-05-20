@@ -107,7 +107,7 @@
   <meta name="description" content="◇いつやるか？今でしょ！ ◇爬墙生物一只||墙头甚多||不定期NC||话唠◇喜新厌旧情节异常严重 ◇ミュージカル||ACG||日剧日影◇法老控轨迹厨||偶尔会抽风去看古装剧 ◇创轨待机中◇道林格雷一般过去时（。  ◇音乐剧坑深似海◇长发是世界的瑰宝◇Born to make history.  ◇「恋」歌：星野源  ◇声優宮野真守、櫻井孝宏 福山　潤、日野　聰 ◇俳優山田裕貴、良知真次 生田斗真、">
 <meta property="og:type" content="website">
 <meta property="og:title" content="備汪噜菌">
-<meta property="og:url" content="http://kiryuknight.me/about/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/about/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="◇いつやるか？今でしょ！ ◇爬墙生物一只||墙头甚多||不定期NC||话唠◇喜新厌旧情节异常严重 ◇ミュージカル||ACG||日剧日影◇法老控轨迹厨||偶尔会抽风去看古装剧 ◇创轨待机中◇道林格雷一般过去时（。  ◇音乐剧坑深似海◇长发是世界的瑰宝◇Born to make history.  ◇「恋」歌：星野源  ◇声優宮野真守、櫻井孝宏 福山　潤、日野　聰 ◇俳優山田裕貴、良知真次 生田斗真、">
 <meta property="og:locale" content="zh_CN">
@@ -121,7 +121,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/about/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/about/"/>
 
 
 
@@ -996,5 +996,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

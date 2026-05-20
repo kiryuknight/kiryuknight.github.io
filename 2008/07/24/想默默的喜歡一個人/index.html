@@ -107,12 +107,12 @@
   <meta name="description" content="突然有這種想法。一下子也說不清為什麼會這麼想，或許這是我的藉口吧。我也曾經喜歡過很多人，總是想讓所有人都知道，想讓所有人都跟我一起喜歡。不過，這種想法真的很天真。 所以，我曾經嘗試著，用自己的方法讓別人愛上我喜歡的人。記得初到龍也吧的時候，並沒有幾個人做MV。藤藤算一個。但是我承認，藤藤的MV不是我喜歡的類型。因為MV而喜歡上小顧的我，也不禁想如果龍也吧也有很多MV，會不會有人跟我一樣看了MV而喜">
 <meta property="og:type" content="article">
 <meta property="og:title" content="想默默的喜歡一個人">
-<meta property="og:url" content="http://kiryuknight.me/2008/07/24/%E6%83%B3%E9%BB%98%E9%BB%98%E7%9A%84%E5%96%9C%E6%AD%A1%E4%B8%80%E5%80%8B%E4%BA%BA/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2008/07/24/%E6%83%B3%E9%BB%98%E9%BB%98%E7%9A%84%E5%96%9C%E6%AD%A1%E4%B8%80%E5%80%8B%E4%BA%BA/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="突然有這種想法。一下子也說不清為什麼會這麼想，或許這是我的藉口吧。我也曾經喜歡過很多人，總是想讓所有人都知道，想讓所有人都跟我一起喜歡。不過，這種想法真的很天真。 所以，我曾經嘗試著，用自己的方法讓別人愛上我喜歡的人。記得初到龍也吧的時候，並沒有幾個人做MV。藤藤算一個。但是我承認，藤藤的MV不是我喜歡的類型。因為MV而喜歡上小顧的我，也不禁想如果龍也吧也有很多MV，會不會有人跟我一樣看了MV而喜">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2008-07-24T08:57:00.000Z">
-<meta property="article:modified_time" content="2026-05-20T11:35:15.107Z">
+<meta property="article:modified_time" content="2026-05-20T11:35:15.000Z">
 <meta property="article:author" content="露崎">
 <meta name="twitter:card" content="summary">
 
@@ -121,7 +121,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2008/07/24/想默默的喜歡一個人/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2008/07/24/想默默的喜歡一個人/"/>
 
 
 
@@ -300,7 +300,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2008/07/24/%E6%83%B3%E9%BB%98%E9%BB%98%E7%9A%84%E5%96%9C%E6%AD%A1%E4%B8%80%E5%80%8B%E4%BA%BA/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2008/07/24/%E6%83%B3%E9%BB%98%E9%BB%98%E7%9A%84%E5%96%9C%E6%AD%A1%E4%B8%80%E5%80%8B%E4%BA%BA/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1127,5 +1127,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

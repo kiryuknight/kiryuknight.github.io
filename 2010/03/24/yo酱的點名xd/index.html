@@ -107,12 +107,12 @@
   <meta name="description" content="1. 我的大名：就是我的大名啊攤手（揍2. 我的小名：次兒（才怪3. 誰傳給你的：聽說咱同樣被櫻桃點名，不過是被yo酱通知到的4. 生日想得到什麼禮物：只要是生田君或者mamo酱相關我都想要的說（快去死5. 近期壓力大的事：考試啊囧6. 未來想做的事：做黑客XDDD7. 有沒有喜歡的人：有，生田君和mamo酱8. 同學聚會要回去找老師嗎：見老師都不會選在聚會的時候9. 跟誰出去最幸福：幸福不幸福的">
 <meta property="og:type" content="article">
 <meta property="og:title" content="yo酱的點名XD">
-<meta property="og:url" content="http://kiryuknight.me/2010/03/24/yo%E9%85%B1%E7%9A%84%E9%BB%9E%E5%90%8Dxd/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2010/03/24/yo%E9%85%B1%E7%9A%84%E9%BB%9E%E5%90%8Dxd/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="1. 我的大名：就是我的大名啊攤手（揍2. 我的小名：次兒（才怪3. 誰傳給你的：聽說咱同樣被櫻桃點名，不過是被yo酱通知到的4. 生日想得到什麼禮物：只要是生田君或者mamo酱相關我都想要的說（快去死5. 近期壓力大的事：考試啊囧6. 未來想做的事：做黑客XDDD7. 有沒有喜歡的人：有，生田君和mamo酱8. 同學聚會要回去找老師嗎：見老師都不會選在聚會的時候9. 跟誰出去最幸福：幸福不幸福的">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2010-03-24T14:23:20.000Z">
-<meta property="article:modified_time" content="2026-05-20T11:35:15.021Z">
+<meta property="article:modified_time" content="2026-05-20T11:35:15.000Z">
 <meta property="article:author" content="露崎">
 <meta property="article:tag" content="マモ">
 <meta property="article:tag" content="生田君">
@@ -124,7 +124,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2010/03/24/yo酱的點名xd/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2010/03/24/yo酱的點名xd/"/>
 
 
 
@@ -303,7 +303,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2010/03/24/yo%E9%85%B1%E7%9A%84%E9%BB%9E%E5%90%8Dxd/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2010/03/24/yo%E9%85%B1%E7%9A%84%E9%BB%9E%E5%90%8Dxd/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1134,5 +1134,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

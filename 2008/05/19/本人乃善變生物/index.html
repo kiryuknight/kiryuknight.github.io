@@ -107,12 +107,12 @@
   <meta name="description" content="如題，本人就是這麼一種人。記得我N年前在blogerhome（忘記是不是這個了）開了本人平生第一個BO。後來因為註冊了MSN，結果轉戰MSN空間。但似乎也沒持續多久，便把所有日誌刪了個遍。這是我唯一的遺憾。後來開了搜狐的BO，用來存文。然後是QQ空間，跟搜狐BO同步，MS也很勤快的更新了一陣子。百度空間那個純粹是因為要在百度發圖，用相冊，MS看著空間空著不好看，於是發了雪柳的配文。再後來，大家都在">
 <meta property="og:type" content="article">
 <meta property="og:title" content="本人乃善變生物">
-<meta property="og:url" content="http://kiryuknight.me/2008/05/19/%E6%9C%AC%E4%BA%BA%E4%B9%83%E5%96%84%E8%AE%8A%E7%94%9F%E7%89%A9/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2008/05/19/%E6%9C%AC%E4%BA%BA%E4%B9%83%E5%96%84%E8%AE%8A%E7%94%9F%E7%89%A9/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="如題，本人就是這麼一種人。記得我N年前在blogerhome（忘記是不是這個了）開了本人平生第一個BO。後來因為註冊了MSN，結果轉戰MSN空間。但似乎也沒持續多久，便把所有日誌刪了個遍。這是我唯一的遺憾。後來開了搜狐的BO，用來存文。然後是QQ空間，跟搜狐BO同步，MS也很勤快的更新了一陣子。百度空間那個純粹是因為要在百度發圖，用相冊，MS看著空間空著不好看，於是發了雪柳的配文。再後來，大家都在">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2008-05-19T13:24:55.000Z">
-<meta property="article:modified_time" content="2026-05-20T11:35:15.007Z">
+<meta property="article:modified_time" content="2026-05-20T11:35:15.000Z">
 <meta property="article:author" content="露崎">
 <meta name="twitter:card" content="summary">
 
@@ -121,7 +121,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2008/05/19/本人乃善變生物/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2008/05/19/本人乃善變生物/"/>
 
 
 
@@ -300,7 +300,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2008/05/19/%E6%9C%AC%E4%BA%BA%E4%B9%83%E5%96%84%E8%AE%8A%E7%94%9F%E7%89%A9/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2008/05/19/%E6%9C%AC%E4%BA%BA%E4%B9%83%E5%96%84%E8%AE%8A%E7%94%9F%E7%89%A9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1123,5 +1123,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

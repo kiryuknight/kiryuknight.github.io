@@ -107,7 +107,7 @@
   <meta name="description" content="我真的喜欢会作曲的人啊！那个！那个！就是喜欢啊！ 就突然想吼一句…… 呃，再多说两句就是其实就是技能加成啊！ 发现自己喜欢的人声音好听，加分。会唱歌，加分。会作词，加分。会作曲，加分。会跳舞，加分。会编舞，加分。而且这些都是平方加成（。 ↑这人在犯病">
 <meta property="og:type" content="article">
 <meta property="og:title" content="随便说两句">
-<meta property="og:url" content="http://kiryuknight.me/2018/09/11/%E9%9A%8F%E4%BE%BF%E8%AF%B4%E4%B8%A4%E5%8F%A5/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2018/09/11/%E9%9A%8F%E4%BE%BF%E8%AF%B4%E4%B8%A4%E5%8F%A5/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="我真的喜欢会作曲的人啊！那个！那个！就是喜欢啊！ 就突然想吼一句…… 呃，再多说两句就是其实就是技能加成啊！ 发现自己喜欢的人声音好听，加分。会唱歌，加分。会作词，加分。会作曲，加分。会跳舞，加分。会编舞，加分。而且这些都是平方加成（。 ↑这人在犯病">
 <meta property="og:locale" content="zh_CN">
@@ -122,7 +122,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2018/09/11/随便说两句/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2018/09/11/随便说两句/"/>
 
 
 
@@ -301,7 +301,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2018/09/11/%E9%9A%8F%E4%BE%BF%E8%AF%B4%E4%B8%A4%E5%8F%A5/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2018/09/11/%E9%9A%8F%E4%BE%BF%E8%AF%B4%E4%B8%A4%E5%8F%A5/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1105,5 +1105,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

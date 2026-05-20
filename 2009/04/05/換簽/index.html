@@ -107,25 +107,25 @@
   <meta name="description" content="由於原來那張寬度不夠所以又做了一張，感嘆下心境不同做出來的圖效果也不同。  历史评论 (1)嵐2009-04-05 18:14这张签很有feel。。。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="換簽">
-<meta property="og:url" content="http://kiryuknight.me/2009/04/05/%E6%8F%9B%E7%B0%BD/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2009/04/05/%E6%8F%9B%E7%B0%BD/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="由於原來那張寬度不夠所以又做了一張，感嘆下心境不同做出來的圖效果也不同。  历史评论 (1)嵐2009-04-05 18:14这张签很有feel。。。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://kiryuknight.me/img/wp/external/i436.photobucket.com/maou02.webp">
+<meta property="og:image" content="http://kiryuknight.fun/img/wp/external/i436.photobucket.com/maou02.webp">
 <meta property="article:published_time" content="2009-04-05T09:08:43.000Z">
-<meta property="article:modified_time" content="2026-05-20T12:13:44.097Z">
+<meta property="article:modified_time" content="2026-05-20T12:13:44.000Z">
 <meta property="article:author" content="露崎">
 <meta property="article:tag" content="PS">
 <meta property="article:tag" content="生田少年">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://kiryuknight.me/img/wp/external/i436.photobucket.com/maou02.webp">
+<meta name="twitter:image" content="http://kiryuknight.fun/img/wp/external/i436.photobucket.com/maou02.webp">
 
 
 
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2009/04/05/換簽/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2009/04/05/換簽/"/>
 
 
 
@@ -304,7 +304,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2009/04/05/%E6%8F%9B%E7%B0%BD/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2009/04/05/%E6%8F%9B%E7%B0%BD/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1132,5 +1132,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

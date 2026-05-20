@@ -107,24 +107,24 @@
   <meta name="description" content="有的時候自己還是很有RP的。“777！三個7誒！”大己語。很好很有愛。於是決定了！以後請叫本人七仔XDD">
 <meta property="og:type" content="article">
 <meta property="og:title" content="777">
-<meta property="og:url" content="http://kiryuknight.me/2009/05/01/777/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2009/05/01/777/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="有的時候自己還是很有RP的。“777！三個7誒！”大己語。很好很有愛。於是決定了！以後請叫本人七仔XDD">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://kiryuknight.me/img/wp/external/i459.photobucket.com/777.webp">
+<meta property="og:image" content="http://kiryuknight.fun/img/wp/external/i459.photobucket.com/777.webp">
 <meta property="article:published_time" content="2009-05-01T06:02:58.000Z">
-<meta property="article:modified_time" content="2026-05-20T12:13:44.080Z">
+<meta property="article:modified_time" content="2026-05-20T12:13:44.000Z">
 <meta property="article:author" content="露崎">
 <meta property="article:tag" content="扯淡">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://kiryuknight.me/img/wp/external/i459.photobucket.com/777.webp">
+<meta name="twitter:image" content="http://kiryuknight.fun/img/wp/external/i459.photobucket.com/777.webp">
 
 
 
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2009/05/01/777/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2009/05/01/777/"/>
 
 
 
@@ -303,7 +303,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2009/05/01/777/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2009/05/01/777/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1104,5 +1104,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

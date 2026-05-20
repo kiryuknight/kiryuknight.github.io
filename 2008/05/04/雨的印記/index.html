@@ -107,12 +107,12 @@
   <meta name="description" content="雨的印記？沒錯，就是我現在BO的背景音樂。 我就是喜歡遊遊麼，不論他是一個怎樣的人，好人壞人。所謂，遊遊殺人我放火，就是這麼一回事，嗯嗯。於是只要是遊遊，不論什麼我都愛，包括他的手機鈴聲，於是說我果然還是沒救了麼╮(╯▽╰)╭ 記得在手機裏麼，對遊遊的手機鈴聲印象比較深刻。因為別人的大都是流行歌，更有意思的是，豬的手機鈴聲居然是豬八戒背媳婦的配樂麼？－－｜｜比如天霸的是死了都要愛，剩下的不提也罷。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="雨的印記">
-<meta property="og:url" content="http://kiryuknight.me/2008/05/04/%E9%9B%A8%E7%9A%84%E5%8D%B0%E8%A8%98/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2008/05/04/%E9%9B%A8%E7%9A%84%E5%8D%B0%E8%A8%98/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="雨的印記？沒錯，就是我現在BO的背景音樂。 我就是喜歡遊遊麼，不論他是一個怎樣的人，好人壞人。所謂，遊遊殺人我放火，就是這麼一回事，嗯嗯。於是只要是遊遊，不論什麼我都愛，包括他的手機鈴聲，於是說我果然還是沒救了麼╮(╯▽╰)╭ 記得在手機裏麼，對遊遊的手機鈴聲印象比較深刻。因為別人的大都是流行歌，更有意思的是，豬的手機鈴聲居然是豬八戒背媳婦的配樂麼？－－｜｜比如天霸的是死了都要愛，剩下的不提也罷。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2008-05-04T02:08:17.000Z">
-<meta property="article:modified_time" content="2026-05-20T11:35:15.048Z">
+<meta property="article:modified_time" content="2026-05-20T11:35:15.000Z">
 <meta property="article:author" content="露崎">
 <meta property="article:tag" content="最近好きなもの">
 <meta name="twitter:card" content="summary">
@@ -122,7 +122,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2008/05/04/雨的印記/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2008/05/04/雨的印記/"/>
 
 
 
@@ -301,7 +301,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2008/05/04/%E9%9B%A8%E7%9A%84%E5%8D%B0%E8%A8%98/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2008/05/04/%E9%9B%A8%E7%9A%84%E5%8D%B0%E8%A8%98/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1133,5 +1133,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

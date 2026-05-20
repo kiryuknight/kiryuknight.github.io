@@ -107,7 +107,7 @@
   <meta name="description" content="道林格雷在遇到巴兹尔之前遇到了阿加莎，阿加莎因为看到了照片里变化了的道林，害怕，撕了照片逃走了。道林就在寻找下一个能把自己最完美的形象拍下来的艺术家，他找到了，巴兹尔。为什么巴兹尔没多久就看出他影像上有噪点（他以为的），因为道林本身就不是白雪公主而是黑魔女，他在别人面前摆出白雪公主的样子。而已。他是魔王，可以让世界变得混沌。他是吸血鬼，吸取艺术家的才华。他是黑色，他可以吞噬任何人的颜色，艺术家以为">
 <meta property="og:type" content="article">
 <meta property="og:title" content="继续过度解读道林格雷">
-<meta property="og:url" content="http://kiryuknight.me/2018/10/12/%E7%BB%A7%E7%BB%AD%E8%BF%87%E5%BA%A6%E8%A7%A3%E8%AF%BB%E9%81%93%E6%9E%97%E6%A0%BC%E9%9B%B7/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2018/10/12/%E7%BB%A7%E7%BB%AD%E8%BF%87%E5%BA%A6%E8%A7%A3%E8%AF%BB%E9%81%93%E6%9E%97%E6%A0%BC%E9%9B%B7/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="道林格雷在遇到巴兹尔之前遇到了阿加莎，阿加莎因为看到了照片里变化了的道林，害怕，撕了照片逃走了。道林就在寻找下一个能把自己最完美的形象拍下来的艺术家，他找到了，巴兹尔。为什么巴兹尔没多久就看出他影像上有噪点（他以为的），因为道林本身就不是白雪公主而是黑魔女，他在别人面前摆出白雪公主的样子。而已。他是魔王，可以让世界变得混沌。他是吸血鬼，吸取艺术家的才华。他是黑色，他可以吞噬任何人的颜色，艺术家以为">
 <meta property="og:locale" content="zh_CN">
@@ -116,8 +116,8 @@
 <meta property="article:author" content="露崎">
 <meta property="article:tag" content="音乐剧">
 <meta property="article:tag" content="良知真次">
-<meta property="article:tag" content="道林格雷的画像">
 <meta property="article:tag" content="信酱">
+<meta property="article:tag" content="道林格雷的画像">
 <meta property="article:tag" content="给荻田跪了">
 <meta name="twitter:card" content="summary">
 
@@ -126,7 +126,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2018/10/12/继续过度解读道林格雷/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2018/10/12/继续过度解读道林格雷/"/>
 
 
 
@@ -305,7 +305,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2018/10/12/%E7%BB%A7%E7%BB%AD%E8%BF%87%E5%BA%A6%E8%A7%A3%E8%AF%BB%E9%81%93%E6%9E%97%E6%A0%BC%E9%9B%B7/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2018/10/12/%E7%BB%A7%E7%BB%AD%E8%BF%87%E5%BA%A6%E8%A7%A3%E8%AF%BB%E9%81%93%E6%9E%97%E6%A0%BC%E9%9B%B7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -424,9 +424,9 @@
           
             <a href="/tags/%E8%89%AF%E7%9F%A5%E7%9C%9F%E6%AC%A1/" rel="tag"># 良知真次</a>
           
-            <a href="/tags/%E9%81%93%E6%9E%97%E6%A0%BC%E9%9B%B7%E7%9A%84%E7%94%BB%E5%83%8F/" rel="tag"># 道林格雷的画像</a>
-          
             <a href="/tags/%E4%BF%A1%E9%85%B1/" rel="tag"># 信酱</a>
+          
+            <a href="/tags/%E9%81%93%E6%9E%97%E6%A0%BC%E9%9B%B7%E7%9A%84%E7%94%BB%E5%83%8F/" rel="tag"># 道林格雷的画像</a>
           
             <a href="/tags/%E7%BB%99%E8%8D%BB%E7%94%B0%E8%B7%AA%E4%BA%86/" rel="tag"># 给荻田跪了</a>
           
@@ -1113,5 +1113,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

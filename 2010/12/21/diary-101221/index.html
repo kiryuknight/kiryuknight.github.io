@@ -107,12 +107,12 @@
   <meta name="description" content="最近一头栽进绝代双骄这个坑（？）里出不来了本来不喜欢看电子版的小说，居然用电脑+itouch把小说又看了一遍很多细节原来想不起来的现在也都记得了 看小说的时候脑子里浮现的一直都是78年版绝代双骄的场景不得不说，这真的是我至今为止看到翻拍最成功的绝代双骄88年版的伟仔，不能说是演技不够，但是总觉得小鱼儿的魅力没了台湾版的我真的都不想提，编剧不行演员也不行，倒是几个配角让人印象深刻 yo酱鼓动我写三版">
 <meta property="og:type" content="article">
 <meta property="og:title" content="沉迷">
-<meta property="og:url" content="http://kiryuknight.me/2010/12/21/diary-101221/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2010/12/21/diary-101221/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="最近一头栽进绝代双骄这个坑（？）里出不来了本来不喜欢看电子版的小说，居然用电脑+itouch把小说又看了一遍很多细节原来想不起来的现在也都记得了 看小说的时候脑子里浮现的一直都是78年版绝代双骄的场景不得不说，这真的是我至今为止看到翻拍最成功的绝代双骄88年版的伟仔，不能说是演技不够，但是总觉得小鱼儿的魅力没了台湾版的我真的都不想提，编剧不行演员也不行，倒是几个配角让人印象深刻 yo酱鼓动我写三版">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2010-12-20T16:20:22.000Z">
-<meta property="article:modified_time" content="2026-05-20T11:35:15.083Z">
+<meta property="article:modified_time" content="2026-05-20T11:35:15.000Z">
 <meta property="article:author" content="露崎">
 <meta property="article:tag" content="最近好きなもの">
 <meta property="article:tag" content="绝代双骄">
@@ -123,7 +123,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2010/12/21/diary-101221/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2010/12/21/diary-101221/"/>
 
 
 
@@ -302,7 +302,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2010/12/21/diary-101221/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2010/12/21/diary-101221/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1132,5 +1132,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

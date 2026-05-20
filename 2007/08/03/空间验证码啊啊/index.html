@@ -107,12 +107,12 @@
   <meta name="description" content="一连三天都无法在空间留言，这真是一件令人郁闷的事。办法想了很多，从网上也找了不少，软件安了无数，验证码依旧无法显示…… 于是咱有了放弃空间的打算&#x3D; &#x3D; 不过呢，还是有些不死心。看网上很多人都说是IE的问题，那么我去下个新浏览器不就好了？于是去下了腾讯TT来用。 小激动，小紧张滴用TT打开空间……满怀希望啊。事实是很残酷滴，验证码依旧不显示。那么，我真的放弃吧。 但也就是我已经打算放弃的时候无意用T">
 <meta property="og:type" content="article">
 <meta property="og:title" content="空间验证码啊啊">
-<meta property="og:url" content="http://kiryuknight.me/2007/08/03/%E7%A9%BA%E9%97%B4%E9%AA%8C%E8%AF%81%E7%A0%81%E5%95%8A%E5%95%8A/index.html">
+<meta property="og:url" content="http://kiryuknight.fun/2007/08/03/%E7%A9%BA%E9%97%B4%E9%AA%8C%E8%AF%81%E7%A0%81%E5%95%8A%E5%95%8A/index.html">
 <meta property="og:site_name" content="+トオリミチ+">
 <meta property="og:description" content="一连三天都无法在空间留言，这真是一件令人郁闷的事。办法想了很多，从网上也找了不少，软件安了无数，验证码依旧无法显示…… 于是咱有了放弃空间的打算&#x3D; &#x3D; 不过呢，还是有些不死心。看网上很多人都说是IE的问题，那么我去下个新浏览器不就好了？于是去下了腾讯TT来用。 小激动，小紧张滴用TT打开空间……满怀希望啊。事实是很残酷滴，验证码依旧不显示。那么，我真的放弃吧。 但也就是我已经打算放弃的时候无意用T">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2007-08-03T15:23:25.000Z">
-<meta property="article:modified_time" content="2026-05-20T11:35:15.087Z">
+<meta property="article:modified_time" content="2026-05-20T11:35:15.000Z">
 <meta property="article:author" content="露崎">
 <meta name="twitter:card" content="summary">
 
@@ -121,7 +121,7 @@
 
 
 
-  <link rel="canonical" href="http://kiryuknight.me/2007/08/03/空间验证码啊啊/"/>
+  <link rel="canonical" href="http://kiryuknight.fun/2007/08/03/空间验证码啊啊/"/>
 
 
 
@@ -300,7 +300,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://kiryuknight.me/2007/08/03/%E7%A9%BA%E9%97%B4%E9%AA%8C%E8%AF%81%E7%A0%81%E5%95%8A%E5%95%8A/">
+    <link itemprop="mainEntityOfPage" href="http://kiryuknight.fun/2007/08/03/%E7%A9%BA%E9%97%B4%E9%AA%8C%E8%AF%81%E7%A0%81%E5%95%8A%E5%95%8A/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="露崎">
@@ -1126,5 +1126,33 @@
 
   
 
+
+  <style>
+  .post-body img.inline-emoji{
+    display:inline;
+    vertical-align:middle;
+    margin:0 2px;
+    border:none;
+    max-height:2em;
+    box-shadow:none;
+  }
+  </style>
+  <script>
+  (function(){
+    function markEmoji(img){
+      if(img.naturalWidth > 0 && img.naturalWidth <= 72 && img.naturalHeight <= 72){
+        img.classList.add('inline-emoji');
+      }
+    }
+    var imgs = document.querySelectorAll('.post-body img');
+    for(var i=0;i<imgs.length;i++){
+      if(imgs[i].complete){
+        markEmoji(imgs[i]);
+      }else{
+        imgs[i].addEventListener('load', function(){ markEmoji(this); });
+      }
+    }
+  })();
+  </script>
 </body>
 </html>
